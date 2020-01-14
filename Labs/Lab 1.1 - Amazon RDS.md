@@ -32,7 +32,7 @@ When you have successfully connected to your database instance, *take a screensh
 <a name="snapshots"></a>
 ## Creating Database Snapshots (2 mark)
 
-Now, try making some changes to your database instance: you might try creating a new database, or a new table, or something along those lines. Then, take a snapshot of your database, and name the snapshot *lab1_snap*. *Take a screenshot of the snapshots page for your database instance, showing the snapshot you just created*.
+Now, try making some changes to your database instance: you might try creating a new database, or a new table, or something along those lines. Then, take a snapshot of your database, and name the snapshot *lab1-snap*. *Take a screenshot of the snapshots page for your database instance, showing the snapshot you just created*.
 
 Try changing your database again. If you wanted to go back to the way it was before, you could restore your snapshot onto a new instance. Try doing this - restore it so that you have a second instance reflecting the old version of the database. *Take a screenshot of the two instances in your RDS dashboard, and then delete the new instance you've created.*
 
