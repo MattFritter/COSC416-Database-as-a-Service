@@ -216,7 +216,7 @@ Waiting for database to be online...
 DB is online.
 SQL Terminal. Enter 'exit' to close.
 
-CREATE DATABASE myNewDatabase;
+>>> CREATE DATABASE myNewDatabase;
 No Output.
 
 >>> SHOW DATABASES;
