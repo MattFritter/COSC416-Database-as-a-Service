@@ -8,6 +8,8 @@ In this lab, we'll combine what we've learnt about CLI/SDK programming with Amaz
 - [Using the SDK - Creating the Instance](#begin)
 - [Connecting to SQL](#connect)
 - [Deleting the Instance](#delete)
+- [Final Feature](#final)
+- [Submission](#submission)
 
 <a name="idea"></a>
 ## The Basic Idea
@@ -188,7 +190,7 @@ As a final component to this lab, let's improve our database application, by imp
 
 It is up to you to decide how you want to implement the feature of your choice. Test your software to make sure it works. For faster testing, you may want to disable the deletion of your database instance, so you can skip the creation/deletion time required each time you run your script.
 
-<a name="Submission"></a>
+<a name="submission"></a>
 ## Submission
 
 Once you've completed your Python script, submit it via Moodle. You will have two weeks to work on this lab.
