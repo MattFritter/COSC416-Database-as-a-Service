@@ -91,7 +91,7 @@ Now, let's try doing the same, but performing an update. We'll need to randomly 
 ```
 for x in range(250):
     randEntry = random.choice(entries1)
-    mycursor.execute("UPDATE testTable SET field2 = 'B' WHERE field1 = %s", (randEntry))
+    mycursor.execute("UPDATE testTable SET field2 = %s WHERE field1 = %s", ("B", randEntry))
     mydb.commit()
 ```
 
