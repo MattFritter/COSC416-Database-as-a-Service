@@ -29,7 +29,7 @@ Refer to the Topic 9 notes for how to create an Azure database instance. You sho
 Once both instances are up and running, you should verify that you can connect to them, either from a Python script, or using a tool like HeidiSQL or SQuirreL. Make sure that you are able to connect before continuing on with the lab.
 
 <a name="setup"></a>
-## Database Setup (6 marks)
+## Database Setup (2 marks)
 
 For our test, we'll want to make sure that both instances are using an identical database - to ensure fairness. Run the following SQL commands on both your instance (RDS and Azure), so that they both have a database called ```lab2db```, containing a table called ```testTable```:
 
@@ -100,7 +100,7 @@ Once you have inserts and updates working, **write your own code based on them t
 Verify they all work by running your script in pieces. Double check that your script reliably writes to the database by logging in with MySQL terminal or HeidiSQL and verifying your creations/updates/queries and deletes are working properly.
 
 <a name="timing"></a>
-## Timing our Queries
+## Timing our Queries (4 marks)
 
 Now, we'll need to time our queries. We can get the time it takes for code to run in Python using code such as the following:
 
@@ -115,7 +115,7 @@ totalTime = end - start
 
 This will return the total time elapsed between the ```start``` and the ```end``` in seconds. Use this code wrapped around each of your loops to get the total time each for 250 Inserts, 250 Updates, 250 Queries, and 250 Deletions.
 
-**Collect times for both your RDS instance and your Azure instance. Put these times into a text file called ```times.txt```.
+**Collect times for both your RDS instance and your Azure instance. Put these times into a text file called ```times.txt```.**
 
 <a name="submission"></a>
 ## Submission
