@@ -6,8 +6,7 @@ In this lab, we'll update our Lab 2 code to instead perform a comparison between
 ## Table of Contents
 - [Instance Setup](#instances)
 - [Database Setup](#setup)
-- [Generating Queries](#generate)
-- [Timing our Queries](#timing)
+- [Modifying Our Code](#generate)
 - [Submission](#submission)
 
 <a name="instances"></a>
