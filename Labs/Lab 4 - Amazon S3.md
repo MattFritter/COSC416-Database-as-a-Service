@@ -6,7 +6,6 @@ In this lab, we'll use the Simple Storage Service (S3) to create a static web pa
 ## Table of Contents
 - [Creating Your Webpage](#webpage)
 - [Your Boto3 Script](#script)
-- [Modifying Our Code](#generate)
 - [Submission](#submission)
 
 <a name="webpage"></a>
