@@ -82,7 +82,7 @@ In order to make your files publicly accessible once they've been uploaded (by d
 Once you've completed the Python script, try visiting the URL for your web page at:
 
 ```
-**YourBucketName**.s3.us-east-2.amazonaws.com/**YourHtmlFile.html**
+YourBucketName.s3.us-east-2.amazonaws.com/YourHtmlFile.html
 ```
 
 Make sure that your HTML, CSS, and JS resources are all working correctly and are publicly accessible on S3.
