@@ -1,5 +1,5 @@
 # COSC 416: Topics in Databases
-# Winter 2020 - Lab 3
+# Winter 2020 - Lab 4
 
 In this lab, we'll use the Simple Storage Service (S3) to create a static web page on demand using the Python **boto3** library.
 
