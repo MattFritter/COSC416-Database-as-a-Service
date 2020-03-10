@@ -66,10 +66,10 @@ s3.put_bucket_policy(Bucket=bucket_name, Policy=bucket_policy)
 Once the bucket has been created and made public, we should automatically upload our website files into the bucket. See the lecture slides for how to do this. An example of how to do this programmatically is given below:
 
 ```
-response = client.upload_file('time.js', 'cosc416test', 'time_new.js')
+response = client.upload_file('time.js', 'cosc416test', 'time_new.js', ExtraArgs={'ContentType': 'text/html'})
 ``` 
 
-Make sure that you get the ordering of the arguments correct: the first argument is the local name of the file to upload (your HTML/JS/CSS files), the second argument is the bucket name (for the bucket we just created), and the third argument is the name (or key) of the file once it is uploaded.
+Make sure that you get the ordering of the arguments correct: the first argument is the local name of the file to upload (your HTML/JS/CSS files), the second argument is the bucket name (for the bucket we just created), and the third argument is the name (or key) of the file once it is uploaded. The Extra arguments are for specifying the type of file that you are uploading - you will need to specify this correctly for HTML, CSS, and JS.
 
 You will also need to include the additional argument:
 
