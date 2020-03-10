@@ -66,18 +66,18 @@ s3.put_bucket_policy(Bucket=bucket_name, Policy=bucket_policy)
 Once the bucket has been created and made public, we should automatically upload our website files into the bucket. See the lecture slides for how to do this. An example of how to do this programmatically is given below:
 
 ```
-response = client.upload_file('time.js', 'cosc416test', 'time_new.js', ExtraArgs={'ContentType': 'text/html'})
+response = client.upload_file('time.js', 'cosc416test', 'time_new.js')
 ``` 
 
-Make sure that you get the ordering of the arguments correct: the first argument is the local name of the file to upload (your HTML/JS/CSS files), the second argument is the bucket name (for the bucket we just created), and the third argument is the name (or key) of the file once it is uploaded. The Extra arguments are for specifying the type of file that you are uploading - you will need to specify this correctly for HTML, CSS, and JS.
+Make sure that you get the ordering of the arguments correct: the first argument is the local name of the file to upload (your HTML/JS/CSS files), the second argument is the bucket name (for the bucket we just created), and the third argument is the name (or key) of the file once it is uploaded.
 
-You will also need to include the additional argument:
+You will also need to include the additional arguments:
 
 ```
-ExtraArgs={'ACL': 'public-read'}
+ExtraArgs={'ACL': 'public-read', 'ContentType': 'text/html'}
 ```
 
-In order to make your files publicly accessible once they've been uploaded (by default, they will not be publicly accessible).
+In order to make your files publicly accessible once they've been uploaded (by default, they will not be publicly accessible). They also specify the type of file that you are uploading - you will need to specify this correctly for HTML, CSS, and JS.
 
 Once you've completed the Python script, try visiting the URL for your web page at:
 
