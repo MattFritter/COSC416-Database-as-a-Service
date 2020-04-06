@@ -30,7 +30,7 @@ Now that the table has been created and populated with items, we will try perfor
 3. Provide a filter that selects all items that share a given partition key value (refer to Topic 15 slides for assistance with this).
 
 <a name="local"></a>
-## Setting Up a Local DynamoDB Server (2 mark)
+## Setting Up a Local DynamoDB Server (2 marks)
 
 Following the instructions from the Topic 16 notes, try installing and running a localhosted version of DynamoDB. You should already have the Amazon CLI installed from our previous experience with Amazon AWS, so try using the CLI to connect to your locally hosted DynamoDB server. Remember to use PowerShell if you are on Windows, as the standard command prompt will cause problems when dealing with JSON data.
 
